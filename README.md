@@ -4,7 +4,7 @@ Some shitty code that uses Google’s Gemini API to automatically solve text-bas
 
 ## Features
 
-* Sends CAPTCHA images to Google Gemini API for OCR-based text extraction
+* Sends CAPTCHA images to Google Gemini API for text extraction
 * Measures and prints the time taken to solve each CAPTCHA
 
 ## Prerequisites
@@ -18,8 +18,8 @@ Some shitty code that uses Google’s Gemini API to automatically solve text-bas
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-captcha-solver.git
-   cd ai-captcha-solver
+   git clone https://github.com/DevFaded/AI-Text-Captcha-Solver.git
+   cd AI-Text-Captcha-Solver
    ```
 2. Install required Python packages:
 
@@ -48,13 +48,6 @@ client = genai.Client(api_key="key")
    ```text
    ABC123 - (time of solving)
    ```
-
-## Example
-
-```bash
-$ python solve.py
-XYZ789 - (time of solving)
-```
 
 ## Contributing
 
