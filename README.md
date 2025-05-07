@@ -10,8 +10,7 @@ Some shitty code that uses Google’s Gemini API to automatically solve text-bas
 ## Prerequisites
 
 * Python 3.7 or later
-* A Google Cloud project with the Gemini API enabled
-* A valid Gemini API key
+* A Gemini API key
 
 ## Installation
 
