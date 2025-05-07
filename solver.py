@@ -2,7 +2,7 @@ import time
 from PIL import Image
 from google import genai #gpt didnt work for me some reason idk
 
-client = genai.Client(api_key="AIzaSyAE7H4JuCJnySo8jCck_LTlN0k3gOQkfCU")
+client = genai.Client(api_key="api")
 
 #this works but is NOT accurate i made this because i felt like it lolll
 def solve(path):
