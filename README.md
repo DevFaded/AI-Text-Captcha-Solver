@@ -1,16 +1,6 @@
 # AI Text CAPTCHA Solver
 
-Some shitty code that uses Google’s Gemini API to automatically solve text-based CAPTCHA images and measure the time taken for each solution.
-
-## Features
-
-* Sends CAPTCHA images to Google Gemini API for text extraction
-* Measures and prints the time taken to solve each CAPTCHA
-
-## Prerequisites
-
-* Python 3.7 or later
-* A Gemini API key
+Some shitty code that uses Google’s Gemini API to automatically solve text-based CAPTCHA.
 
 ## Installation
 
@@ -20,7 +10,7 @@ Some shitty code that uses Google’s Gemini API to automatically solve text-bas
    git clone https://github.com/DevFaded/AI-Text-Captcha-Solver.git
    cd AI-Text-Captcha-Solver
    ```
-2. Install required Python packages:
+2. Install Python packages:
 
    ```bash
    pip install google-genai pillow
@@ -28,7 +18,7 @@ Some shitty code that uses Google’s Gemini API to automatically solve text-bas
 
 ## Configuration
 
-Edit the script to include your API key by replacing the placeholder:
+Edit the code to include your API key by replacing the placeholder:
 
 ```python
 client = genai.Client(api_key="key")
@@ -42,7 +32,7 @@ client = genai.Client(api_key="key")
    ```bash
    python solve.py
    ```
-3. The script will output the extracted text and the time taken:
+3. The script will print the text and the time taken:
 
    ```text
    ABC123 - (time of solving)
