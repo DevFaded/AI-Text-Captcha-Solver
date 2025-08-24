@@ -30,7 +30,7 @@ genai.configure(api_key="api")
 2. Run the script:
 
    ```bash
-   python solve.py
+   python solver.py
    ```
 3. The script will print the text and the time taken:
 
