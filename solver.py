@@ -2,7 +2,7 @@ import time
 from PIL import Image
 import google.generativeai as genai #gpt didnt work for me some reason idk
 
-genai.configure(api_key="AIzaSyAE7H4JuCJnySo8jCck_LTlN0k3gOQkfCU")
+genai.configure(api_key="api")
 
 #this works but is NOT accurate i made this because i felt like it lolll
 def solve(path):
@@ -16,3 +16,4 @@ def solve(path):
 
 text, duration = solve("captcha.png")
 print(text, f"- {duration:.2f}s")
+
