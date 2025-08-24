@@ -21,7 +21,7 @@ Some shitty code that uses Google’s Gemini API to automatically solve text-bas
 Edit the code to include your API key by replacing the placeholder:
 
 ```python
-client = genai.Client(api_key="key")
+genai.configure(api_key="api")
 ```
 
 ## Usage
